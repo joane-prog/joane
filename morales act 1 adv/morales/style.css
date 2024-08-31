@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    z-index: 5;
+    padding: 10px 0;
+    background-color: rgb(14, 14, 14);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+
+.navbar ul {
+    background-color: transparent;
+    display: flex;
+    gap: 100px;
+    align-items: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar li {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navbar a {
+    font-weight: bold;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.home {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-color: rgb(231, 231, 231);
+}
+
+.homecontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.homecontainer img{
+    border-radius: 180px;
+    height: 194px;
+    width: 194px;
+    align-self: center;
+}
+
+.home h2 {
+    z-index: 1;
+    position: relative;
+    left: 65px;
+}
+
+.about {
+    background-color: rgb(231, 231, 231);
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.about p {
+    font-size: 20px;
+}
+
+.contact {
+    background-color: rgb(231, 231, 231);
+    height: 10vh;
+    padding: 0 50px;
+    flex-direction: row;
+    gap: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+:root {
+    --primary-color: rgb(231, 231, 231);
+    --secondary-color: rgb(14, 14, 14);
+}
